@@ -1,0 +1,9 @@
+$E_G$,$E_G^\text{DA}$,$\alpha(E)$,$\Delta E$,$\Delta$,SLME,Total
+,,,,,ML,Total
+,,ML,,ML,True,Total
+GGA,GGA,GGA,ML,True,True,Total
+ML,,True,,,True,Total
+HSE,,True,,,True,Total
+GGA,,True,ML,,True,Total
+GGA,GGA,GGA,,True,True,Total
+HSE,GGA,GGA,True,True,True,Total
