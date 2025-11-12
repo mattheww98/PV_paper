@@ -1,0 +1,71 @@
+ running  120 mpi-ranks, on    3 nodes
+ distrk:  each k-point on  120 cores,    1 groups
+ distr:  one band on   10 cores,   12 groups
+ vasp.6.4.2 20Jul23 (build Mar 15 2024 16:31:38) complex                        
+  
+ POSCAR found type information on POSCAR Si
+ POSCAR found :  1 types and       2 ions
+ Reading from existing POTCAR
+ scaLAPACK will be used
+ Reading from existing POTCAR
+ -----------------------------------------------------------------------------
+|                                                                             |
+|               ----> ADVICE to this user running VASP <----                  |
+|                                                                             |
+|     You enforced a specific xc type in the INCAR file but a different       |
+|     type was found in the POTCAR file.                                      |
+|     I HOPE YOU KNOW WHAT YOU ARE DOING!                                     |
+|                                                                             |
+ -----------------------------------------------------------------------------
+
+ LDA part: xc-table for Pade appr. of Perdew
+ -----------------------------------------------------------------------------
+|                                                                             |
+|           W    W    AA    RRRRR   N    N  II  N    N   GGGG   !!!           |
+|           W    W   A  A   R    R  NN   N  II  NN   N  G    G  !!!           |
+|           W    W  A    A  R    R  N N  N  II  N N  N  G       !!!           |
+|           W WW W  AAAAAA  RRRRR   N  N N  II  N  N N  G  GGG   !            |
+|           WW  WW  A    A  R   R   N   NN  II  N   NN  G    G                |
+|           W    W  A    A  R    R  N    N  II  N    N   GGGG   !!!           |
+|                                                                             |
+|     The number of bands has been changed from the values supplied in        |
+|     the INCAR file. This is a result of running the parallel version.       |
+|     The orbitals not found in the WAVECAR file will be initialized with     |
+|     random numbers, which is usually adequate. For correlated               |
+|     calculations, however, you should redo the groundstate calculation.     |
+|     I found NBANDS = 15. Now, NBANDS = 24.                                  |
+|                                                                             |
+ -----------------------------------------------------------------------------
+
+ WARNING: stress and forces are not correct
+ POSCAR, INCAR and KPOINTS ok, starting setup
+ FFT: planning ... GRIDC
+ FFT: planning ... GRID_SOFT
+ FFT: planning ... GRID
+ WAVECAR not read
+ augmentation electrons   8.00881168391824     
+ soft         electrons  0.000000000000000E+000
+ total        electrons   8.00881168391824     
+ augmentation electrons   21.6451912620411     
+ soft         electrons  0.000000000000000E+000
+ total        electrons   21.6451912620411     
+ charge-density read from file: unknown                                 
+ entering main loop
+       N       E                     dE             d eps       ncg     rms          rms(c)
+DAV:   1     0.627301487975E+01    0.62730E+01   -0.34119E+03  1392   0.327E+02
+DAV:   2    -0.111632969666E+02   -0.17436E+02   -0.17067E+02  1956   0.594E+01
+DAV:   3    -0.114879501067E+02   -0.32465E+00   -0.32439E+00  1668   0.600E+00
+DAV:   4    -0.114888954914E+02   -0.94538E-03   -0.94536E-03  1908   0.399E-01
+DAV:   5    -0.114888989722E+02   -0.34807E-05   -0.34807E-05  1680   0.243E-02
+RMM:   6    -0.114888989879E+02   -0.15708E-07   -0.15707E-07   684   0.175E-03
+   1 F= -.11488899E+02 E0= -.11488899E+02  d E =0.000000E+00
+ writing wavefunctions
+ optical routines
+ imaginary and real dielectric function
+ recalculating local potential from charge density
+ direction            1
+ direction            2
+ direction            3
+ augmentation electrons -0.450994375676663     
+ soft         electrons   8.45758898978063     
+ total        electrons   8.00659461410397     

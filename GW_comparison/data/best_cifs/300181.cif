@@ -1,0 +1,69 @@
+####################################################################### 
+# 
+# This file contains crystal structure data downloaded from the 
+# Cambridge Structural Database (CSD) hosted by the Cambridge 
+# Crystallographic Data Centre (CCDC) in cooperation with FIZ Karlsruhe.
+# 
+# Please note that these data are only for research purposes or private use.
+# For detailed information please see under Terms & Conditions.
+# Full information about CCDC and FIZ Karlsruhe data access policies and 
+# citation guidelines are available at http://www.ccdc.cam.ac.uk/access/V1
+# 
+# Audit and citation data items may have been added by FIZ Karlsruhe. 
+# Please retain this information to preserve the provenance of 
+# this file and to allow appropriate attribution of the data. 
+# 
+#######################################################################
+
+data_35597-ICSD
+_database_code_depnum_ccdc_archive 'CCDC 1607667'
+loop_
+_citation_id
+_citation_doi
+_citation_year
+1 10.1016/0025-5408(83)90146-0 1983
+_audit_update_record             
+;
+2018-02-26 deposited with the CCDC.	2025-03-31 downloaded from the CCDC.
+;
+_database_code_ICSD              35597
+_chemical_name_systematic        'Silver Pentaindium Selenide'
+_chemical_formula_sum            'Ag1 In5 Se8'
+_cell_length_a                   5.7934
+_cell_length_b                   5.7934
+_cell_length_c                   11.6223
+_cell_angle_alpha                90
+_cell_angle_beta                 90
+_cell_angle_gamma                90
+_cell_volume                     390.08
+_cell_formula_units_Z            1
+_symmetry_space_group_name_H-M   'P -4 2 m'
+_symmetry_Int_Tables_number      111
+_symmetry_cell_setting           tetragonal
+_refine_ls_R_factor_all          0.0315
+loop_
+_symmetry_equiv_pos_site_id
+_symmetry_equiv_pos_as_xyz
+1 '-y, -x, z'
+2 'y, x, z'
+3 'y, -x, -z'
+4 '-y, x, -z'
+5 'x, -y, -z'
+6 '-x, y, -z'
+7 '-x, -y, z'
+8 'x, y, z'
+loop_
+_atom_site_label
+_atom_site_type_symbol
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+Ag1 Ag1+ 0 0 0.5
+In1 In3+ 0 0.5 0.25013
+In2 In3+ 0.5 0.5 0
+Se1 Se2- 0.22834 0.22834 0.11225
+Se2 Se2- 0.72177 0.72177 0.61414
+
+#End of data_35597-ICSD
+
+
