@@ -1,5 +1,4 @@
-# The carbon cost of materials discovery: Can machine learning really accelerate the
-discovery of new photovoltaics?
+# The carbon cost of materials discovery: Can machine learning really accelerate the discovery of new photovoltaics?
 This is a repo for the paper, pre-print [here](https://arxiv.org/abs/2507.13246)
 The datasets used in this paper are as follows:
 - ~10k GGA & HSE band-gaps from Kim et al. (used to calculate GGA-HSE band-gap shifts to scissor correct GGA absorption spectra)
