@@ -1,1 +1,2 @@
+# VASP Calculations
 This directory contains directories for each example material, with OUTCARs and VASPRUN.xml files from the VASP calculations set up using the ATOMATE2 scripts found in the /atomate_scripts/ directory. The analysing_vasp.ipynb notebook opens each OUTCAR, extracts the CPU time, and calculates an energy cost associated with that calculation - these are averaged across the materials for the final data. The make_methods_plot.ipynb notebook takes the data produced by the previous notebook and plots it to make figure 1 in the paper.
