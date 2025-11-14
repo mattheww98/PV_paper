@@ -1,1 +1,2 @@
+# Learning curves
 This directory contains the notebooks to create subsets of the training data to produce the learning curve results, and top process the predictions by ML models trained on each training subset. Each training set size has three randomly generated training sets so the predictive accuracies can be averaged, apart from the full training set which is fixed. This ensures the test set is the same every time for consistency in testing.
